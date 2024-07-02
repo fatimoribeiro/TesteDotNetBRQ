@@ -1,1 +1,39 @@
-<p>tarefa-form works!</p>
+<mat-card>
+    <h1>{{lblTitulo}}</h1>
+
+    <form [formGroup]="tarefaForm" (ngSubmit)="submit()" #formDit="ngForm">
+        <input type="hidden" formControlName="id" />
+
+        <div class="input-box">
+            <mat-form-field>
+                <mat-label>Título:</mat-label>
+                <input matInput type="text" id="titulo" formControlName="titulo" placeholder="Insira o título da tarefa" required />
+            </mat-form-field>
+        </div>
+
+        <div class="input-box">
+            <mat-form-field>
+                <mat-label>Descrição:</mat-label>
+                <textarea matInput id="descricao" formControlName="descricao" placeholder="Insira a descrição da tarefa" required></textarea>
+            </mat-form-field>
+        </div>
+
+        <div class="input-box">
+            <mat-form-field>
+                <mat-label>Status:</mat-label>
+                <mat-select id="status" formControlName="status" required>
+                    <mat-option value="Nova">Nova</mat-option>
+                    <mat-option value="Aprovada">Aprovada</mat-option>
+                    <mat-option value="Ajustes">Ajustes</mat-option>
+                    <mat-option value="Devolvida">Devolvida</mat-option>
+                    <mat-option value="Finalizada">Finalizada</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+        <div class="btn-box">
+            <button mat-raised-button color="accent" type="submit" [disabled]="!tarefaForm.valid">{{btnAcao}}</button>
+            <button mat-raised-button routerLink="/">Voltar</button>
+        </div>
+    </form>
+</mat-card>
