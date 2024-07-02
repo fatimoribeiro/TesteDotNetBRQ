@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C65CDBA8-B4C9-4A2C-B9AC-5E56E5D53705}|WebApiTodoBRQ.csproj|c:\\users\\fatimo\\documents\\projetos\\brq\\testedotnetbrq\\backend\\webapitodobrq\\models\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65CDBA8-B4C9-4A2C-B9AC-5E56E5D53705}|WebApiTodoBRQ.csproj|solutionrelative:models\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65CDBA8-B4C9-4A2C-B9AC-5E56E5D53705}|WebApiTodoBRQ.csproj|c:\\users\\fatimo\\documents\\projetos\\brq\\testedotnetbrq\\backend\\webapitodobrq\\models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65CDBA8-B4C9-4A2C-B9AC-5E56E5D53705}|WebApiTodoBRQ.csproj|solutionrelative:models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C65CDBA8-B4C9-4A2C-B9AC-5E56E5D53705}|WebApiTodoBRQ.csproj|c:\\users\\fatimo\\documents\\projetos\\brq\\testedotnetbrq\\backend\\webapitodobrq\\enums\\tarefastatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C65CDBA8-B4C9-4A2C-B9AC-5E56E5D53705}|WebApiTodoBRQ.csproj|solutionrelative:enums\\tarefastatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,6 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TarefaModel.cs",
+              "DocumentMoniker": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Models\\TarefaModel.cs",
+              "RelativeDocumentMoniker": "Models\\TarefaModel.cs",
+              "ToolTip": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Models\\TarefaModel.cs",
+              "RelativeToolTip": "Models\\TarefaModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T00:10:23.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Models\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "Models\\ServiceResponse.cs",
+              "ToolTip": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Models\\ServiceResponse.cs",
+              "RelativeToolTip": "Models\\ServiceResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T00:09:48.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TarefaStatusEnum.cs",
               "DocumentMoniker": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Enums\\TarefaStatusEnum.cs",
               "RelativeDocumentMoniker": "Enums\\TarefaStatusEnum.cs",
