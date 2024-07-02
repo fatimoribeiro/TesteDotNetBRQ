@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiTodoBRQ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+817468be6554bac36fe3951bc13c56b47da69863")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03e15552b25a2e4f1d348878ad1880d0923afc22")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApiTodoBRQ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApiTodoBRQ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
