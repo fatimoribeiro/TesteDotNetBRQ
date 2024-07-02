@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Migrations\\20240702141407_firstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240702141407_firstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C65CDBA8-B4C9-4A2C-B9AC-5E56E5D53705}|WebApiTodoBRQ.csproj|c:\\users\\fatimo\\documents\\projetos\\brq\\testedotnetbrq\\backend\\webapitodobrq\\service\\tarefaservice\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C65CDBA8-B4C9-4A2C-B9AC-5E56E5D53705}|WebApiTodoBRQ.csproj|solutionrelative:service\\tarefaservice\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240702141407_firstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Migrations\\20240702141407_firstMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240702141407_firstMigration.cs",
+              "ToolTip": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Migrations\\20240702141407_firstMigration.cs",
+              "RelativeToolTip": "Migrations\\20240702141407_firstMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:14:08.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TarefaService.cs",
               "DocumentMoniker": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Service\\TarefaService\\TarefaService.cs",
               "RelativeDocumentMoniker": "Service\\TarefaService\\TarefaService.cs",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ITarefaInterface.cs",
               "DocumentMoniker": "C:\\Users\\Fatimo\\Documents\\projetos\\BRQ\\TesteDotNetBRQ\\backend\\WebApiTodoBRQ\\Service\\TarefaService\\ITarefaInterface.cs",
               "RelativeDocumentMoniker": "Service\\TarefaService\\ITarefaInterface.cs",
@@ -47,8 +64,7 @@
               "RelativeToolTip": "Service\\TarefaService\\ITarefaInterface.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T12:01:33.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T12:01:33.262Z"
             }
           ]
         }
