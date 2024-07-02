@@ -9,7 +9,7 @@ import { Response } from '../models/Response';
   providedIn: 'root'
 })
 export class TarefaService {
-  private apiUrl = `${environment.ApiUrl}/funcionario`
+  private apiUrl = `${environment.ApiUrl}/tarefa`
 
   constructor(private http: HttpClient) { }
 
