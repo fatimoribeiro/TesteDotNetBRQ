@@ -19,13 +19,15 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { TarefaFormComponent } from './components/tarefa-form/tarefa-form.component';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ExcluirComponent,
-    TarefaFormComponent
+    TarefaFormComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
