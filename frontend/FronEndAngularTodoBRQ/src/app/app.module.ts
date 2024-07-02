@@ -20,6 +20,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { TarefaFormComponent } from './components/tarefa-form/tarefa-form.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { EditarComponent } from './pages/editar/editar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
     HomeComponent,
     ExcluirComponent,
     TarefaFormComponent,
-    CadastroComponent
+    CadastroComponent,
+    EditarComponent
   ],
   imports: [
     BrowserModule,
