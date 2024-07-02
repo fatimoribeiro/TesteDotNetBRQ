@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { ExcluirComponent } from 'src/app/components/excluir/excluir.component';
 import { Tarefa } from 'src/app/models/Tarefas';
 import { TarefaService } from 'src/app/services/tarefa.service';
 
@@ -13,7 +15,7 @@ export class HomeComponent implements OnInit {
   tarefasGeral: Tarefa[] = [];
   columnsToDisplay = ['Titulo', 'Status', 'Actions', 'Excluir'];
 
-  constructor(private tarefaService: TarefaService) {}
+  constructor(private tarefaService: TarefaService, public dialog: MatDialog) {}
 
   ngOnInit(): void {
     this.tarefaService.GetTarefas().subscribe(data => {      
@@ -39,5 +41,12 @@ export class HomeComponent implements OnInit {
   }
 
   OpenDialog(id: number) {
+    this.dialog.open(ExcluirComponent, {
+      width: '450px',
+      height: '450px',
+      data: {
+        id: id
+      }
+    });
   }
 }
