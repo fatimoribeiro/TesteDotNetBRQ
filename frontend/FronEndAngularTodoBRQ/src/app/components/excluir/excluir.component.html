@@ -1,1 +1,17 @@
-<p>excluir works!</p>
+<mat-card>
+    <div *ngIf="tarefa">
+        <h1 style="text-align: center;">Deseja confirmar a exclusão?</h1>
+        <div>
+            <h2 style="margin-bottom: 0;">Título:</h2>
+            <p>{{ tarefa.titulo }}</p>
+
+            <h2 style="margin-bottom: 0;">Status:</h2>
+            <p>{{ tarefa.status }}</p>
+        </div>
+
+        <div class="btn-box">
+            <button mat-raised-button color="warn" (click)="Excluir()">Confirmar</button>
+            <button mat-raised-button (click)="Cancelar()">Voltar</button>
+        </div>
+    </div>
+</mat-card>
