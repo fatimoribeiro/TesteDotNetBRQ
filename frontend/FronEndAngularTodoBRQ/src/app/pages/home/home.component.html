@@ -19,19 +19,24 @@
         <th mat-header-cell *matHeaderCellDef> Status </th>
         <td mat-cell *matCellDef="let tarefa"> {{ tarefa.status }} </td>
     </ng-container>
+
+    <ng-container matColumnDef="Creation">
+        <th mat-header-cell *matHeaderCellDef> Criação </th>
+        <td mat-cell *matCellDef="let tarefa"> {{ tarefa.dataDeCriacao }} </td>
+    </ng-container>
   
     <ng-container matColumnDef="Actions">
         <th mat-header-cell *matHeaderCellDef></th>
         <td mat-cell *matCellDef="let tarefa">
             <button style="margin: 8px;" mat-raised-button color="accent" routerLink="/editar/{{tarefa.id}}">Editar</button>
-            <button mat-raised-button routerLink="/detalhes/{{tarefa.id}}">Detalhes</button>
+            <button mat-raised-button color="warn" (click)="OpenDialog(tarefa.id)">Excluir</button>
         </td>
     </ng-container>
 
     <ng-container matColumnDef="Excluir">
         <th mat-header-cell *matHeaderCellDef></th>
         <td mat-cell *matCellDef="let tarefa">
-            <button mat-raised-button color="warn" (click)="OpenDialog(tarefa.id)">Excluir</button>
+            
         </td>
     </ng-container>
 
