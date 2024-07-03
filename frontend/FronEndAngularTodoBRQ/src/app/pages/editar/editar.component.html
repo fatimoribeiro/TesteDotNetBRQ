@@ -1,1 +1,7 @@
-<p>editar works!</p>
+<div *ngIf="tarefa">
+    <app-tarefa-form 
+        [btnAcao]="btnAcao" [lblTitulo]="lblTitulo" 
+        [dadosTarefa]="tarefa" 
+        (onSubmit)="editarTarefa($event)">
+    </app-tarefa-form>
+</div>
